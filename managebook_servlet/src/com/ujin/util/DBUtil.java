@@ -7,8 +7,8 @@ public class DBUtil {
 
 	private final String driverName = "com.mysql.cj.jdbc.Driver";
 	private final String url = "jdbc:mysql://127.0.0.1:3306/wsbook?serverTimezone=UTC";
-	private final String user = "ssafy";
-	private final String pass = "ssafy";
+	private final String user = "";
+	private final String pass = "";
 
 	private static DBUtil instance = new DBUtil();
 
